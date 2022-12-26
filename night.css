@@ -1,0 +1,1422 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    /* background-image: url(C:\Users\ppnso\Downloads); */
+    overflow: hidden;
+}
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.main_container{
+    background-color: black;
+    height: 96.4rem;
+    overflow: hidden;
+    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
+}
+
+.container{
+    background-color: black;
+    /* overflow: hidden; */
+}
+
+.star_moon{
+    display: flex;
+}
+
+#star_1{
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+    margin-left: 7rem;
+    margin-top: 5rem;
+}
+
+#star_2{
+    width: .5rem;
+    height: .5rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .8rem;
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+
+#star_2_5{
+    width: .4rem;
+    height: .4rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .8rem;
+    margin-left: 5rem;
+    margin-top: 6rem;
+}
+
+#star_3{
+    width: .4rem;
+    height: .4rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+    margin-left: 8rem;
+    margin-top: 9rem;
+}
+
+#star_4{
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+}
+
+#star_5{
+    width: .7rem;
+    height: .7rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+    margin-left: 4rem;
+    margin-top: 6rem;
+}
+
+#star_6{
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+    margin-left: 10rem;
+    margin-top: 13rem;
+}
+
+#star_7{
+    width: .4rem;
+    height: .4rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .8rem;
+    margin-left: 6rem;
+    margin-top: 8rem;
+}
+
+#star_8{
+    width: .4rem;
+    height: .4rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+    margin-left: 7rem;
+    margin-top: 14rem;
+}
+
+#star_9{
+    width: .4rem;
+    height: .4rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+#star_10{
+    width: .7rem;
+    height: .7rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+    margin-left: 3rem;
+    margin-top: 6rem;
+}
+
+#star_11{
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+
+#star_12{
+    width: .5rem;
+    height: .5rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .8rem;
+    margin-left: 11rem;
+    margin-top: 12rem;
+}
+
+#star_13{
+    width: .5rem;
+    height: .5rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+    margin-left: 3rem;
+    margin-top: 11rem;
+}
+
+#star_14{
+    width: .3rem;
+    height: .3rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .7rem;
+}
+
+#star_15{
+    width: .9rem;
+    height: .9rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+    margin-left: 7rem;
+    margin-top: 7.5rem;
+}
+
+#star_16{
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+
+#star_16_5{
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+#star_17{
+    width: .4rem;
+    height: .4rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .8rem;
+    margin-left: 3rem;
+    margin-top: 18rem;
+}
+
+#star_18{
+    width: .9rem;
+    height: .9rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+    margin-left: 17rem;
+    margin-top: 14rem;
+}
+
+#star_19{
+    width: .3rem;
+    height: .3rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .8rem;
+    margin-left: 3.5rem;
+    margin-top: 7rem;
+}
+
+#star_20{
+    width: .7rem;
+    height: .7rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: .5rem;
+    margin-left: 3rem;
+    margin-top: 9rem;
+}
+
+#moon_img{
+    width: 16rem;
+    height: 16rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+/* building starts from here */
+
+/* building 1 starts here */
+
+.building{
+    display: flex;
+    margin-top: 5rem; 
+}
+
+.building_1{
+    width: 8rem;
+    height: 28rem;
+    background-color: rgb(46, 38, 38);
+}
+
+.building1_window_set_1{
+    display: flex;
+}
+
+#window_1{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#window_2{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.building1_window_set_2{
+    display: flex;
+}
+
+#window_3{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#window_4{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.building1_window_set_3{
+    display: flex;
+}
+
+#window_5{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#window_6{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+/* building 2 starts here */
+
+.building_2{
+    width: 8rem;
+    height: 25rem;
+    background-color: rgb(46, 38, 38);
+    margin-top: 3rem;
+    border-left: .1rem solid black;
+    /* justify-content: center;
+    display: flex; */
+}
+
+.building2_window_set_1{
+    display: flex;
+    /* justify-content: center; */
+}
+
+#window_7{
+    width: 2rem;
+    height: 12rem;
+    background-color: yellow;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+#window_8{
+    width: 2rem;
+    height: 12rem;
+    background-color: yellow;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#window_9{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#window_10{
+    width: 2rem;
+    height: 7rem;
+    background-color: yellow;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+#window_11{
+    width: 2rem;
+    height: 7rem;
+    background-color: yellow;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+/* building three starts from here */
+
+.building_3{
+    width: 8rem;
+    height: 28rem;
+    background-color: rgb(46, 38, 38);
+    border-left: .1rem solid black;
+}
+
+/* building 4 starts form here */
+
+.building_4{
+    display: block;
+}
+
+#top{
+    width: 0;
+	height: 0;
+	border-left: 20rem solid transparent;
+	border-right: 20rem solid transparent;
+	border-bottom: 10rem solid rgb(46, 38, 38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottom{
+    width: 40rem;
+	height: 18rem;
+    background-color: rgb(46, 38, 38);
+    border-left: .1rem solid black;
+}
+
+#window_12{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    background-color: yellow;
+    margin-top: 13rem;
+    border-radius: 2rem;
+}
+
+#window_left{
+    position: absolute;
+    width: 7rem;
+    height: 12rem;
+    background-color: yellow;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+#horizontal_line{
+    position: absolute;
+    width: 7rem;
+    height: .2rem;
+    background-color: rgb(46, 38, 38);
+    margin-top: 6rem;
+}
+
+#vertical_line{
+    position: absolute;
+    width: .2rem;
+    height: 12.7rem;
+    background-color: rgb(46, 38, 38);
+    margin-left: 3.5rem;
+}
+
+#door{
+    position: absolute;
+    width: 8rem;
+    height: 12rem;
+    background-color: rgb(56, 17, 17);
+    margin-left: 16rem;
+    margin-top: 6rem;
+}
+
+#lock{
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 1rem;
+    background-color: brown;
+    margin-top: 6rem;
+}
+
+#window_right{
+    position: absolute;
+    width: 7rem;
+    height: 12rem;
+    background-color: yellow;
+    margin-left: 29rem;
+    margin-top: 2rem;
+}
+
+#horizontal_line_2{
+    position: absolute;
+    width: 7rem;
+    height: .2rem;
+    background-color: rgb(46, 38, 38);
+    margin-top: 6rem;
+}
+
+#vertical_line_2{
+    position: absolute;
+    width: .2rem;
+    height: 12.7rem;
+    background-color: rgb(46, 38, 38);
+    margin-left: 3.5rem;
+    /* margin-top: -6.8rem; */
+}
+
+/* building 5 starts from here */
+
+.building_5{
+    width: 8rem;
+    height: 24rem;
+    background-color: rgb(46, 38, 38);
+    margin-top: 4rem;
+    border-left: .1rem solid black;
+    justify-content: center;
+    display: block;
+}
+
+#window_13{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .9rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_14{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_15{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_16{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_17{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_18{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_19{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_20{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_21{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+/* building 6 starts from here */
+
+.building_6{
+    width: 8rem;
+    height: 26rem;
+    background-color: rgb(46, 38, 38);
+    margin-top: 2rem;
+    border-left: .1rem solid black;
+    justify-content: center;
+    display: block;
+}
+
+#window_22{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_23{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_24{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_25{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_26{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_27{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_28{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_29{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_30{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_31{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+/* building 7 starts from here */
+
+.building_7{
+    width: 8rem;
+    height: 29rem;
+    background-color: rgb(46, 38, 38);
+    margin-top: -1rem;
+    border-left: .1rem solid black;
+    justify-content: center;
+    display: block;
+}
+
+#window_32{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_33{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_34{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_35{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_36{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_37{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_38{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_39{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_40{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_41{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+#window_42{
+    width: 6rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    margin-left:1rem;
+}
+
+/* street starts from here */
+
+.street{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 10rem;
+        height: 20rem;
+        background-color: rgb(22, 17, 17);
+        margin-top: 8rem;
+        box-shadow: 0rem -2rem 2rem rgb(22, 17, 17);
+        /* position: absolute; */
+}
+
+#white_lane_1{
+    width: .4rem;
+    height: 0rem;
+    /* border-top: 2rem solid transparent; */
+    border-left: .3rem solid transparent;
+    border-right: .3rem solid transparent;
+    border-bottom: 1rem solid white;
+    margin-left: 4rem;
+    margin-top: 7rem;
+}
+
+#white_lane_2{
+    width: .6rem;
+    height: 0rem;
+    /* border-top: 2rem solid transparent; */
+    border-left: .3rem solid transparent;
+    border-right: .3rem solid transparent;
+    border-bottom: 1.9rem solid white;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+#white_lane_3{
+    width: .8rem;
+    height: 0rem;
+    /* border-top: 2rem solid transparent; */
+    border-left: .3rem solid transparent;
+    border-right: .3rem solid transparent;
+    border-bottom: 2.8rem solid white;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+#white_lane_4{
+    width: 1.5rem;
+    height: 0rem;
+    /* border-top: 2rem solid transparent; */
+    border-left: .3rem solid transparent;
+    border-right: .3rem solid transparent;
+    border-bottom: 3.8rem solid white;
+    margin-left: 3.7rem;
+    margin-top: 1rem;
+}
+
+/* building 8 starts from here */
+
+#building_top{
+    width: 0rem;
+    height: 0rem;
+    border-left: 4.5rem solid transparent;
+    border-right: 4.5rem solid transparent;
+    border-bottom: 4rem solid rgb(46, 38, 38);
+   margin-top: -4rem;
+   position: absolute;
+}
+
+#building_bottom{
+    width: 9rem;
+    height: 28rem;
+    background-color: rgb(46, 38, 38);
+    /* margin-top: -4rem; */
+    position: absolute;
+}
+
+.building_window_set4{
+    display: flex;
+    justify-content: center;
+}
+
+#window_43{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+}
+
+#window_44{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.building_window_set5{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#window_45{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+}
+
+#window_46{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.building_window_set6{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#window_47{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+}
+
+#window_48{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.building_window_set7{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#window_49{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+}
+
+#window_50{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.building_window_set8{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#window_51{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+}
+
+#window_52{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.building_window_set9{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#window_53{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+}
+
+#window_54{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.building_window_set10{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#window_55{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+}
+
+#window_56{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.building_window_set11{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#window_57{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+}
+
+#window_58{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.building_window_set12{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#window_59{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+}
+
+#window_60{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    margin-left: 2rem;
+}
+
+/* building 9 starts from here */
+
+#building_top_9{
+    width: 0rem;
+    height: 0rem;
+    border-left: 6rem solid transparent;
+    border-right: 6rem solid transparent;
+    border-bottom: 6rem solid rgb(46, 38, 38);
+   margin-top: -10rem;
+   position: absolute;
+   margin-left: 9.1rem;
+}
+
+.building_bottom_9{
+    width: 12rem;
+    height: 32rem;
+    background-color: rgb(46, 38, 38);
+    margin-top: -4rem;
+    position: absolute;
+    margin-left: 9.1rem;
+    /* display: flex; */
+    justify-content: center;
+}
+
+#window_61{
+    width: 10rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.building_window_set13{
+    margin-top: 1rem;
+    display: flex;
+    justify-content:center;
+}
+
+#window_62{
+    width: 4rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+}
+
+#window_63{
+    width: 4rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+#window_64{
+    width: 10rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.building_window_set14{
+    margin-top: 1rem;
+    display: flex;
+    justify-content:center;
+}
+
+#window_65{
+    width: 4rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+}
+
+#window_66{
+    width: 4rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+#window_67{
+    width: 10rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.building_window_set15{
+    margin-top: 1rem;
+    display: flex;
+    justify-content:center;
+}
+
+#window_68{
+    width: 4rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+}
+
+#window_69{
+    width: 4rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+#window_70{
+    width: 10rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.building_window_set16{
+    margin-top: 1rem;
+    display: flex;
+    justify-content:center;
+}
+
+#window_71{
+    width: 4rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+}
+
+#window_72{
+    width: 4rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+#window_73{
+    width: 10rem;
+    height: 2rem;
+    background-color: yellow;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.building_window_set17{
+    margin-top: 1rem;
+    display: flex;
+    justify-content:center;
+}
+
+#window_74{
+    width: 4rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+}
+
+#window_75{
+    width: 4rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+/* building 10 starts from here */
+
+.building_10{
+    margin-left: 21.2rem;
+}
+
+/* building 11 starts from here */
+
+.building_11{
+    margin-left: 9rem;
+}
+
+#bush{
+    width: 10rem;
+    height: 8rem;
+    margin-top: 35.9rem;
+    margin-left: 5rem;
+    position: absolute;
+}
+
+/* road starts from here */
+
+.road{
+    display: flex;
+    width: fit-content;
+    background-color: rgb(22, 17, 17);
+    height: 13.3rem;
+}
+
+#white_lane_5{
+    background-color: white;
+    width: 5rem;
+    height: 1rem;
+    margin-top: 5rem;
+}
+
+#white_lane_6{
+    background-color: white;
+    width: 5rem;
+    height: 1rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+#white_lane_7{
+    background-color: white;
+    width: 5rem;
+    height: 1rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+#white_lane_8{
+    background-color: white;
+    width: 5rem;
+    height: 1rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+#white_lane_9{
+    background-color: white;
+    width: 5rem;
+    height: 1rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+#white_lane_10{
+    background-color: white;
+    width: 5rem;
+    height: 1rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+#white_lane_11{
+    background-color: white;
+    width: 5rem;
+    height: 1rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+#white_lane_12{
+    background-color: white;
+    width: 5rem;
+    height: 1rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+#white_lane_13{
+    background-color: white;
+    width: 5rem;
+    height: 1rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+#white_lane_14{
+    background-color: white;
+    width: 5rem;
+    height: 1rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+#white_lane_15{
+    background-color: white;
+    width: 5rem;
+    height: 1rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+#white_lane_16{
+    background-color: white;
+    width: 5rem;
+    height: 1rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+#building{
+    background:url("./my_buildings.png");
+    width: 136rem;
+    height: 60rem;
+    /* background-repeat: no-repeat; */
+}
+
+#road{
+    background:url("./my_road.png");
+    width: 136rem;
+    height: 30rem;
+    position: absolute;
+    margin-top: -8.1rem;
+    /* background-repeat: no-repeat; */
+}
+
+#car{
+    position: absolute;
+    margin-top: -6.6rem;
+    margin-left: 75rem;
+    width: 23rem;
+    height: 8rem;
+}
+
+#tyre_1{
+    position: absolute;
+    margin-top: -3rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-left: 79rem;
+}
+
+#tyre_2{
+    position: absolute;
+    margin-top: -3rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-left: 3rem;
+    margin-left: 90.2rem;
+}
+
+/* responsive mobile and tablet */
+
+@media(max-width:998px){
+    html{
+    font-size: 55%;
+    }
+  }
+
+  @media(max-width:768px){
+    html{
+    font-size: 45%;
+    }
+  }
+
+  @media(max-width:468px){
+    html{
+    font-size: 25%;
+    }
+  }
